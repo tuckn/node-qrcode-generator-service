@@ -1,0 +1,21 @@
+{
+  "name": "qrcode-generator-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "nexe": "npx nexe server.js --target windows-x64-14.15.3 --output server.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3"
+  },
+  "bin": "server.js",
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.6"
+  }
+}
