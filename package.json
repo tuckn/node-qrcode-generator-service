@@ -1,20 +1,46 @@
 {
-  "name": "qrcode-generator-service",
+  "name": "@tuckn/qrcode-generator-service",
+  "description": "Node.js application to generate QR codes from text using Express framework and qrcode library, dynamically serving QR code images based on URL parameters.",
   "version": "1.0.0",
-  "description": "",
+  "author": "Tuckn <tuckn333@gmail.com>",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tuckn"
+  },
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://docs.tuckn.net/node-qrcode-generator-service",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuckn/node-qrcode-generator-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuckn/node-qrcode-generator-service/issues"
+  },
+  "keywords": [
+    "node.js",
+    "qr code",
+    "qrcode",
+    "qr code generator",
+    "express",
+    "web server",
+    "http",
+    "url parameters",
+    "generate qr code",
+    "nexe",
+    "standalone executable",
+    "dynamic qr code"
+  ],
   "main": "server.js",
+  "bin": "server.js",
   "scripts": {
     "start": "node server.js",
     "nexe": "npx nexe server.js --target windows-x64-14.15.3 --output server.exe"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "qrcode": "^1.5.3"
   },
-  "bin": "server.js",
   "devDependencies": {
     "nexe": "^4.0.0-rc.6"
   }
